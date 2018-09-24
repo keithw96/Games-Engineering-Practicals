@@ -1,0 +1,6 @@
+﻿  Graphic.cpp
+  GraphicProxy.cpp
+  Main.cpp
+  Generating Code...
+c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\ge ii practical 1 part 3\ge ii practical 1 part 3\graphicproxy.cpp(27): warning C4715: 'GraphicProxy::getInstance': not all control paths return a value
+  GE II practical 1 part 3.vcxproj -> C:\Users\gameuser\Documents\college stuff\Games Engineering II\Gameplay Engineering II practical 1\GE II practical 1 part 3\Debug\GE II practical 1 part 3.exe
