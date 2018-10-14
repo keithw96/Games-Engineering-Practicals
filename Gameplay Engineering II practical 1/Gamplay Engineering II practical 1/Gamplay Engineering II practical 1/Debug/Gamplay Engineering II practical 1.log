@@ -1,6 +1,0 @@
-﻿  Main.cpp
-c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\gamplay engineering ii practical 1\gamplay engineering ii practical 1\main.cpp(6): error C2259: 'CharacterFactory': cannot instantiate abstract class
-  c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\gamplay engineering ii practical 1\gamplay engineering ii practical 1\main.cpp(6): note: due to following members:
-  c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\gamplay engineering ii practical 1\gamplay engineering ii practical 1\main.cpp(6): note: 'Character *Factory::CreateOpponents(void)': is abstract
-  c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\gamplay engineering ii practical 1\gamplay engineering ii practical 1\factory.h(8): note: see declaration of 'Factory::CreateOpponents'
-c:\users\gameuser\documents\college stuff\games engineering ii\gameplay engineering ii practical 1\gamplay engineering ii practical 1\gamplay engineering ii practical 1\main.cpp(11): warning C4018: '<': signed/unsigned mismatch
