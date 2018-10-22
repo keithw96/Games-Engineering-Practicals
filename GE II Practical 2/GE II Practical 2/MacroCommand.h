@@ -12,5 +12,5 @@ public:
 	virtual void execute();
 
 private:
-	list<
+	
 };

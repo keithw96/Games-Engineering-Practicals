@@ -2,15 +2,15 @@
 
 #include "Entity.h"
 #include <iostream>
-class HealthSystem
+
+class ControlSystem
 {
 	std::vector<Entity> entities;
 
 public:
 
-	void addEntity(Entity e) { /* TBI */ }
+	void addEntity(Entity e) { ; }
 	void update() {
-		std::cout << "HealthSystem Update" << std::endl;
+		std::cout << "Control System" << std::endl;
 	}
-
 };
