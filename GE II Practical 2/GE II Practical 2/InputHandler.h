@@ -4,8 +4,7 @@ class InputHandler
 {
 public:
 	void handleInput();
-
-private:
+	void setCommand(Command* cmd);
 	Command * Jump_;
 	Command * Fire_;
 	Command * Crouch_;

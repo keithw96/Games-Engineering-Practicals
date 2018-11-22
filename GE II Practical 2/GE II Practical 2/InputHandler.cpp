@@ -7,6 +7,7 @@ void InputHandler::handleInput()
 	{
 		Jump_->Execute();
 	}
+
 	//f
 	else if (GetKeyState(0x46)) 
 	{
@@ -19,15 +20,22 @@ void InputHandler::handleInput()
 		Melee_->Execute();
 	}
 
-	//ctrl
-	else if (GetKeyState(0x11))
-	{
-		Crouch_->Execute();
-	}
+	////ctrl
+	//else if (GetKeyState(VK_CONTROL))
+	//{
+	//	Crouch_->Execute();
+	//}
 
-	//shift
-	else if (GetKeyState(0x10))
-	{
-		Shield_->Execute();
-	}
+	////shift
+	//else if (GetKeyState(VK_SHIFT))
+	//{
+	//	Shield_->Execute();
+	//}
+
+	
+}
+
+void InputHandler::setCommand(Command* cmd)
+{
+	Jump_ = cmd;
 }

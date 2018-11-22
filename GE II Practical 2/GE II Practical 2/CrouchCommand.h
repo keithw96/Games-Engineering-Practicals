@@ -7,7 +7,7 @@ class CrouchCommand : public Command
 {
 public:
 	virtual void execute() { crouch(); }
-private:
+
 	void crouch() {
 		cout << "crouch" << endl;
 	};

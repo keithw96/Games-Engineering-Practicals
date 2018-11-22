@@ -6,8 +6,11 @@ using namespace std;
 class JumpCommand : public Command
 {
 public:
-	virtual void execute() { jump(); }
-private:
+
+	JumpCommand() {};
+
+	virtual void execute() { jump(); };
+
 	void jump() {
 		cout << "jump" << endl;
 	};

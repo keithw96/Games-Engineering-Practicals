@@ -7,7 +7,7 @@ class ShieldCommand : public Command
 {
 public:
 	virtual void execute() { shield(); }
-private:
+
 	void shield() {
 		cout << "shield" << endl;
 	};

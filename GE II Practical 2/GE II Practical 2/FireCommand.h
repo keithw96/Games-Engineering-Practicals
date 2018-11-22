@@ -5,10 +5,9 @@ using namespace std;
 
 class FireCommand : public Command
 {
-public :
+public:
 	virtual void execute() { fireGun(); }
 
-private:
 	void fireGun() {
 		cout << "Draw Impl" << endl;
 	}

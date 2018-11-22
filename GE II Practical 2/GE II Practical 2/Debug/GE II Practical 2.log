@@ -1,2 +1,5 @@
-﻿  Minpp.cpp
-  GE II Practical 2.vcxproj -> C:\Users\gameuser\Documents\college stuff\Games Engineering II\GE II Practical 2\Debug\GE II Practical 2.exe
+﻿  Main.cpp
+c:\users\gameuser\documents\college stuff\games engineering ii\ge ii practical 2\ge ii practical 2\main.cpp(10): error C2259: 'JumpCommand': cannot instantiate abstract class
+  c:\users\gameuser\documents\college stuff\games engineering ii\ge ii practical 2\ge ii practical 2\main.cpp(10): note: due to following members:
+  c:\users\gameuser\documents\college stuff\games engineering ii\ge ii practical 2\ge ii practical 2\main.cpp(10): note: 'void Command::Execute(void)': is abstract
+  c:\users\gameuser\documents\college stuff\games engineering ii\ge ii practical 2\ge ii practical 2\command.h(7): note: see declaration of 'Command::Execute'
