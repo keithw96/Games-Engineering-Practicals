@@ -1,19 +1,19 @@
 int buf; int p = 0; int c = 0;
 
-public void produce(int a[]) {
+public void produce() {
     while (p < 3)
     {
         static int a[3] = {2,3,1};
 
-        buf = a[p]; 
+        buf = a[p];
         p - p + 1;
     }
 
 }
 
-public void consumer(int b[])
+public void consumer()
 {
-    
+
     static int b[3] = {0,0,0};
 
     while (c < 2)
@@ -21,13 +21,13 @@ public void consumer(int b[])
 
         b[c] = buf;
 
-        c = c + 1; 
+        c = c + 1;
     }
 }
 
-public static void main() 
+public static void main()
 {
-    
+
     Thread t1 = new Thread(produce());
     Thread t2 = new Thread(consumer());
 
