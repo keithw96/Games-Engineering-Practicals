@@ -1,4 +1,8 @@
 #pragma once
+
+#include <SDL.h>
+
+
 class Game
 {
 public:
@@ -9,5 +13,8 @@ public:
 	void render();
 
 private:
+	SDL_Window* m_window;
+	SDL_Surface* m_surface;
 
+	SDL_Renderer* m_renderer;
 };
